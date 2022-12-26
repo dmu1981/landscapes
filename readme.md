@@ -58,7 +58,7 @@ The network is a classic convolutional neural network with max-pooling and batch
     self.linear4 = torch.nn.Linear(512, 5)
 
 ## Training
-The network is heavily regularized with dropout layers on the three final layers plus minimal weight decay on the optimizer (ADAM). The network achieves ~90% accuracy on the training and 80%~ accuracy on the validation set. 
+The network is heavily regularized with dropout layers on the three final layers plus minimal weight decay on the optimizer (ADAM). The network achieves 90% accuracy on the training and 80% accuracy on the validation set. 
 
 ## About the Author
 I am a passionate developer with a professional AI/ML background. This is a toy example that can be a starting point for future improvements.
